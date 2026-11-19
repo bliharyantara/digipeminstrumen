@@ -1,0 +1,14 @@
+{
+  "name": "observa-digital-netlify",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node -e \"console.log('OBSERVA DIGITAL: build siap')\""
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9"
+  },
+  "engines": {"node": ">=22.12"}
+}
